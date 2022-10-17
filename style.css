@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background: url('https://source.unsplash.com/1200x800/?snow background');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+  
+}
+
+.card{
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 20px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.card img{
+    width: 30%;
+    height: 40%;
+    border-radius: 40px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 20px;
+    background: red;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+}
+
+.icon a{
+   padding: 10px;
+   color: black;
+}
+
+#facebook{
+    color: rgb(7, 7, 123);
+}
+#linkedin{
+    color: rgb(21, 21, 145);
+    
+}
+#google{
+    color: rgb(65, 101, 10);
+}
+#insta{
+    color: rgb(155, 44, 4);
+}
+
+.contact .btn{
+    background: rgb(243, 228, 228);
+    padding: 13px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    color: red;
+}
+
+.contact .btn:hover{
+    background-color: orangered;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icon a:hover{
+    font-size: 70px; 
+}
+
+.card img:hover{
+    width:40%;
+    height: 60%;
+    border-radius: 100px;
+}
+
+
+
